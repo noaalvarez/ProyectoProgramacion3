@@ -274,5 +274,8 @@ public class VentanaIniciarSes extends JFrame {
 			case "Fisioterapeuta":
 				new VentanaFisioterapeuta(this).setVisible(true);
 			}
-		}}
+		}catch(Exception e) {
+			
+		}
+	}
 }

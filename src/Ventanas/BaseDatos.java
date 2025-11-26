@@ -127,11 +127,7 @@ public class BaseDatos {
 				        + "VALUES (5, 'Ane', 'Etxebarria Zubizarreta', 'ane.etxezubi', 'ane123')");
 				stmnt.execute("INSERT OR IGNORE INTO usuario (id_usuario,nombre, apellidos, usuario, contrasena) "
 				        + "VALUES (6, 'Iker', 'Garmendia Landa', 'iker.garmenda', 'ikerpass')");
-<<<<<<< HEAD
 
-=======
-			
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 				// Más usuarios
 				stmnt.execute("INSERT OR IGNORE INTO usuario (id_usuario,nombre, apellidos, usuario, contrasena) "
 				        + "VALUES (7, 'Naiara', 'Zubiri Etxeberria', 'naiara.zubiri', 'naiara123')");
@@ -289,7 +285,6 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (10,1,1,10,1,1)");
 
 				// Piso 1 - Pasillo 2
-<<<<<<< HEAD
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (11,1,2,11,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (12,1,2,12,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (13,1,2,13,0,1)");
@@ -300,7 +295,6 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (18,1,2,18,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (19,1,2,19,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (20,1,2,20,0,1)");
-=======
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (11,1,2,1,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (12,1,2,2,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (13,1,2,3,1,1)");
@@ -311,10 +305,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (18,1,2,8,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (19,1,2,9,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (20,1,2,10,1,1)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 
-				// Piso 2 - Pasillo 1
-<<<<<<< HEAD
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (21,2,1,21,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (22,2,1,22,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (23,2,1,23,0,1)");
@@ -325,7 +316,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (28,2,1,28,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (29,2,1,29,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (30,2,1,30,0,1)");
-=======
+
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (21,2,1,1,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (22,2,1,2,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (23,2,1,3,1,1)");
@@ -336,10 +327,9 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (28,2,1,8,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (29,2,1,9,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (30,2,1,10,1,1)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 
 				// Piso 2 - Pasillo 2
-<<<<<<< HEAD
+
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (31,2,2,31,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (32,2,2,32,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (33,2,2,33,0,1)");
@@ -350,7 +340,6 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (38,2,2,38,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (39,2,2,39,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (40,2,2,40,0,1)");
-=======
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (31,2,2,1,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (32,2,2,2,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (33,2,2,3,1,1)");
@@ -361,10 +350,8 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (38,2,2,8,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (39,2,2,9,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (40,2,2,10,1,1)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 
 				// Piso 3 - Pasillo 1
-<<<<<<< HEAD
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (41,3,1,41,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (42,3,1,42,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (43,3,1,43,0,1)");
@@ -375,7 +362,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (48,3,1,48,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (49,3,1,49,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (50,3,1,50,0,1)");
-=======
+
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (41,3,1,1,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (42,3,1,2,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (43,3,1,3,1,1)");
@@ -386,10 +373,8 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (48,3,1,8,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (49,3,1,9,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (50,3,1,10,1,1)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 
 				// Piso 3 - Pasillo 2
-<<<<<<< HEAD
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (51,3,2,51,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (52,3,2,52,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (53,3,2,53,0,1)");
@@ -400,7 +385,6 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (58,3,2,58,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (59,3,2,59,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (60,3,2,60,0,1)");
-=======
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (51,3,2,1,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (52,3,2,2,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (53,3,2,3,1,1)");
@@ -411,10 +395,8 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (58,3,2,8,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (59,3,2,9,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (60,3,2,10,1,1)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 
 				// Piso 4 - Pasillo 1
-<<<<<<< HEAD
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (61,4,1,61,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (62,4,1,62,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (63,4,1,63,0,1)");
@@ -425,7 +407,6 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (68,4,1,68,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (69,4,1,69,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (70,4,1,70,0,1)");
-=======
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (61,4,1,1,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (62,4,1,2,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (63,4,1,3,1,1)");
@@ -436,10 +417,8 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (68,4,1,8,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (69,4,1,9,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (70,4,1,10,1,1)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 
 				// Piso 4 - Pasillo 2
-<<<<<<< HEAD
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (71,4,2,71,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (72,4,2,72,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (73,4,2,73,0,1)");
@@ -450,7 +429,6 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (78,4,2,78,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (79,4,2,79,0,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (80,4,2,80,0,1)");
-=======
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (71,4,2,1,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (72,4,2,2,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (73,4,2,3,1,1)");
@@ -461,7 +439,6 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (78,4,2,8,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (79,4,2,9,1,1)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (80,4,2,10,1,1)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
 
 				// Piso 5 - Pasillo 1
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (81,5,1,81,0,1)");
@@ -514,7 +491,7 @@ public class BaseDatos {
 				//EDIFICIO ENTRENADORES
 				//este edificio tiene 2 pisos
 				// Piso 1 - Pasillo 1
-<<<<<<< HEAD
+				
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (121,1,1,121,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (122,1,1,122,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (123,1,1,123,1,2)");
@@ -525,7 +502,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (128,1,1,128,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (129,1,1,129,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (130,1,1,130,0,2)");
-=======
+
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (101,1,1,1,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (102,1,1,2,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (103,1,1,3,1,2)");
@@ -536,10 +513,10 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (108,1,1,8,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (109,1,1,9,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (110,1,1,10,1,2)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
+
 
 				// Piso 1 - Pasillo 2
-<<<<<<< HEAD
+
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (131,1,2,131,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (132,1,2,132,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (133,1,2,133,0,2)");
@@ -550,7 +527,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (138,1,2,138,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (139,1,2,139,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (140,1,2,140,0,2)");
-=======
+
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (111,1,2,1,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (112,1,2,2,1,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (113,1,2,3,0,2)");
@@ -561,7 +538,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (118,1,2,8,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (119,1,2,9,0,2)");
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (120,1,2,10,0,2)");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
+
 
 				// Piso 2 - Pasillo 1
 				stmnt.execute("INSERT OR IGNORE INTO habitacion VALUES (141,2,1,141,0,2)");
@@ -612,7 +589,7 @@ public class BaseDatos {
 
 				
 				stmnt.executeUpdate(sqlActividad);
-<<<<<<< HEAD
+
 				
 				//ACTIVIDADES DE FUTBOL HASTA 2026-01-31
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (1, 1, 1, 1, '2025-11-25 15:30:00', 'Entrenamiento')");
@@ -1014,7 +991,6 @@ public class BaseDatos {
 				
 				
 				
-=======
 				//ACTIVIDADES FUTBOL
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (1,1,1,'Entrenamiento','2025-11-26 11:00')");
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (2,1,1,'Partido','2025-11-26 18:30')");
@@ -1099,9 +1075,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (81,1,1,'Entrenamiento','2026-01-30 15:00')");
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (82,1,1,'Entrenamiento','2026-01-31 20:00')");
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (83,1,1,'Partido','2026-01-31 18:30')");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
-				
-<<<<<<< HEAD
+
 				stmnt.executeUpdate(sqlDeportista);
 				
 				//futbolistas id_usuario 7tik aurrea,id_habitaicion(1-120)
@@ -1110,7 +1084,7 @@ public class BaseDatos {
 						+ "VALUES (1, 7, 1, 1)");
 				//
 				
-=======
+
 				//ACTIVIDADES BALONCESTO
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (84,2,2,'Entrenamiento','2025-11-26 15:30')");
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (85,2,2,'Partido','2025-11-26 20:30')");
@@ -1280,7 +1254,7 @@ public class BaseDatos {
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (247,3,3,'Entrenamiento','2026-01-30 12:30')");
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (248,3,3,'Entrenamiento','2026-01-31 15:00')");
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (249,3,3,'Competicion','2026-01-31 20:00')");
->>>>>>> branch 'master' of git@github.com:noaalvarez/PROYECTO-PROGRAM.git
+
 
 				//ACTIVIDADES NATACION
 				stmnt.execute("INSERT OR IGNORE INTO actividad VALUES (250,4,4,'Entrenamiento','2025-11-26 16:00')");
