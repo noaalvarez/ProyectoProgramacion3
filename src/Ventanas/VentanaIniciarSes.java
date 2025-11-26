@@ -61,10 +61,10 @@ public class VentanaIniciarSes extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
-		contentPane.setLayout(new BorderLayout(0, 0));
+		contentPane.setLayout(new GridLayout(0, 1, 0, 0));
 
 		JPanel panel = new JPanel();
-		contentPane.add(panel, BorderLayout.CENTER);
+		contentPane.add(panel);
 		panel.setLayout(new GridLayout(3, 1, 0, 0));
 
 		// --- 1. TÍTULO ---
